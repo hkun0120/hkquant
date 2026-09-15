@@ -1,0 +1,238 @@
+{
+  "dataVersionId": 330002,
+  "period": {
+    "start": "2020-01-02",
+    "end": "2022-12-30"
+  },
+  "universe": {
+    "risky": [
+      "510050.SH",
+      "510300.SH",
+      "510500.SH",
+      "512000.SH",
+      "512010.SH",
+      "512100.SH",
+      "518880.SH"
+    ],
+    "defensive": "511010.SH"
+  },
+  "rule": "月末收盘信号、下一交易日开盘成交；每期选择正动量且高于自身趋势均线的最高动量风险ETF，按风险权重配置，其余配置国债ETF；无合格风险ETF时100%国债ETF。",
+  "results": [
+    {
+      "lookbackDays": 60,
+      "riskWeight": 0.3,
+      "rebalances": 32,
+      "trades": 35,
+      "rejectedTrades": 0,
+      "metrics": {
+        "totalReturn": 0.140954,
+        "annualizedReturn": 0.046769,
+        "annualizedVolatility": 0.039711,
+        "sharpe": 1.170981,
+        "maximumDrawdown": -0.050545,
+        "averageTurnover": 0.004203,
+        "tradingDays": 728
+      },
+      "yearly": [
+        {
+          "year": "2020",
+          "totalReturn": 0.073666,
+          "sharpe": 1.194012,
+          "maximumDrawdown": -0.050545
+        },
+        {
+          "year": "2021",
+          "totalReturn": 0.042027,
+          "sharpe": 2.566377,
+          "maximumDrawdown": -0.007795
+        },
+        {
+          "year": "2022",
+          "totalReturn": 0.019812,
+          "sharpe": 1.131379,
+          "maximumDrawdown": -0.012018
+        }
+      ]
+    },
+    {
+      "lookbackDays": 60,
+      "riskWeight": 0.5,
+      "rebalances": 32,
+      "trades": 35,
+      "rejectedTrades": 0,
+      "metrics": {
+        "totalReturn": 0.222221,
+        "annualizedReturn": 0.072034,
+        "annualizedVolatility": 0.060034,
+        "sharpe": 1.188824,
+        "maximumDrawdown": -0.07573,
+        "averageTurnover": 0.00597,
+        "tradingDays": 728
+      },
+      "yearly": [
+        {
+          "year": "2020",
+          "totalReturn": 0.151027,
+          "sharpe": 1.558445,
+          "maximumDrawdown": -0.07573
+        },
+        {
+          "year": "2021",
+          "totalReturn": 0.041772,
+          "sharpe": 2.549839,
+          "maximumDrawdown": -0.007827
+        },
+        {
+          "year": "2022",
+          "totalReturn": 0.019275,
+          "sharpe": 1.102128,
+          "maximumDrawdown": -0.011948
+        }
+      ]
+    },
+    {
+      "lookbackDays": 60,
+      "riskWeight": 0.7,
+      "rebalances": 32,
+      "trades": 28,
+      "rejectedTrades": 0,
+      "metrics": {
+        "totalReturn": 0.307015,
+        "annualizedReturn": 0.097252,
+        "annualizedVolatility": 0.079886,
+        "sharpe": 1.201925,
+        "maximumDrawdown": -0.098992,
+        "averageTurnover": 0.007353,
+        "tradingDays": 728
+      },
+      "yearly": [
+        {
+          "year": "2020",
+          "totalReturn": 0.228336,
+          "sharpe": 1.751355,
+          "maximumDrawdown": -0.098992
+        },
+        {
+          "year": "2021",
+          "totalReturn": 0.042484,
+          "sharpe": 2.588241,
+          "maximumDrawdown": -0.007742
+        },
+        {
+          "year": "2022",
+          "totalReturn": 0.02069,
+          "sharpe": 1.178149,
+          "maximumDrawdown": -0.01213
+        }
+      ]
+    },
+    {
+      "lookbackDays": 120,
+      "riskWeight": 0.3,
+      "rebalances": 29,
+      "trades": 21,
+      "rejectedTrades": 0,
+      "metrics": {
+        "totalReturn": 0.010585,
+        "annualizedReturn": 0.003656,
+        "annualizedVolatility": 0.04066,
+        "sharpe": 0.11008,
+        "maximumDrawdown": -0.073441,
+        "averageTurnover": 0.00451,
+        "tradingDays": 728
+      },
+      "yearly": [
+        {
+          "year": "2020",
+          "totalReturn": -0.046524,
+          "sharpe": -0.935093,
+          "maximumDrawdown": -0.073441
+        },
+        {
+          "year": "2021",
+          "totalReturn": 0.03941,
+          "sharpe": 0.925442,
+          "maximumDrawdown": -0.041379
+        },
+        {
+          "year": "2022",
+          "totalReturn": 0.019709,
+          "sharpe": 1.124909,
+          "maximumDrawdown": -0.012111
+        }
+      ]
+    },
+    {
+      "lookbackDays": 120,
+      "riskWeight": 0.5,
+      "rebalances": 29,
+      "trades": 20,
+      "rejectedTrades": 0,
+      "metrics": {
+        "totalReturn": -0.021874,
+        "annualizedReturn": -0.007637,
+        "annualizedVolatility": 0.064466,
+        "sharpe": -0.086704,
+        "maximumDrawdown": -0.1173,
+        "averageTurnover": 0.006695,
+        "tradingDays": 728
+      },
+      "yearly": [
+        {
+          "year": "2020",
+          "totalReturn": -0.074294,
+          "sharpe": -0.903991,
+          "maximumDrawdown": -0.1173
+        },
+        {
+          "year": "2021",
+          "totalReturn": 0.037851,
+          "sharpe": 0.563319,
+          "maximumDrawdown": -0.06806
+        },
+        {
+          "year": "2022",
+          "totalReturn": 0.018092,
+          "sharpe": 1.033894,
+          "maximumDrawdown": -0.01207
+        }
+      ]
+    },
+    {
+      "lookbackDays": 120,
+      "riskWeight": 0.7,
+      "rebalances": 29,
+      "trades": 20,
+      "rejectedTrades": 0,
+      "metrics": {
+        "totalReturn": -0.053124,
+        "annualizedReturn": -0.018744,
+        "annualizedVolatility": 0.089925,
+        "sharpe": -0.165459,
+        "maximumDrawdown": -0.160501,
+        "averageTurnover": 0.008862,
+        "tradingDays": 728
+      },
+      "yearly": [
+        {
+          "year": "2020",
+          "totalReturn": -0.101825,
+          "sharpe": -0.876457,
+          "maximumDrawdown": -0.160501
+        },
+        {
+          "year": "2021",
+          "totalReturn": 0.034313,
+          "sharpe": 0.366841,
+          "maximumDrawdown": -0.096269
+        },
+        {
+          "year": "2022",
+          "totalReturn": 0.019248,
+          "sharpe": 1.099371,
+          "maximumDrawdown": -0.012099
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "period": {
+    "start": "2020-01-01",
+    "end": "2022-12-30"
+  },
+  "symbols": [
+    "510300.SH",
+    "510500.SH",
+    "518880.SH"
+  ],
+  "rowCount": 2184,
+  "failures": [],
+  "versionId": 90002,
+  "quality": {
+    "status": "passed",
+    "rowCount": 2184,
+    "duplicateCount": 0,
+    "missingCount": 0,
+    "invalidOhlcCount": 0,
+    "outOfOrderCount": 0,
+    "coverageStart": "2020-01-02",
+    "coverageEnd": "2022-12-30",
+    "messages": [
+      "日频OHLCV完整性、唯一性、时间顺序与OHLC约束检查通过。"
+    ]
+  }
+}

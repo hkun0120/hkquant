@@ -1,0 +1,46 @@
+{
+  "dataVersionId": 90002,
+  "period": {
+    "start": "2020-01-02",
+    "end": "2022-12-30"
+  },
+  "universe": [
+    "510300.SH",
+    "510500.SH",
+    "518880.SH"
+  ],
+  "signalRule": {
+    "lookbackDays": 60,
+    "rsrsWindow": 18,
+    "rsrsSlopeFloor": 0.85,
+    "signalToExecution": "至少一个交易时点"
+  },
+  "rebalances": 141,
+  "baseline": {
+    "runId": 90001,
+    "metrics": {
+      "totalReturn": 0.24424507600000034,
+      "annualizedReturn": 0.07869146255297976,
+      "annualizedVolatility": 0.14739022608987631,
+      "sharpe": 0.5875641277182959,
+      "maximumDrawdown": -0.20519561868009484,
+      "averageTurnover": 0.08121042677067901,
+      "tradingDays": 728
+    },
+    "trades": 66
+  },
+  "strict": {
+    "runId": 90002,
+    "metrics": {
+      "totalReturn": 0.16583920826000043,
+      "annualizedReturn": 0.054627172487662135,
+      "annualizedVolatility": 0.14689192172005483,
+      "sharpe": 0.43545656065043725,
+      "maximumDrawdown": -0.22841812434156938,
+      "averageTurnover": 0.08111591675897419,
+      "tradingDays": 728
+    },
+    "trades": 66,
+    "rejectedTrades": 0
+  }
+}

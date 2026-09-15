@@ -1,0 +1,56 @@
+{
+  "dataVersionId": 360002,
+  "period": {
+    "start": "2020-06-01",
+    "end": "2022-12-30"
+  },
+  "rebalances": [
+    "2020-06-01",
+    "2021-06-01",
+    "2022-06-01"
+  ],
+  "candidateCounts": [
+    {
+      "fiscalPeriod": "20191231",
+      "candidateCount": 250,
+      "selectedCount": 10
+    },
+    {
+      "fiscalPeriod": "20201231",
+      "candidateCount": 336,
+      "selectedCount": 10
+    },
+    {
+      "fiscalPeriod": "20211231",
+      "candidateCount": 306,
+      "selectedCount": 10
+    }
+  ],
+  "baseline": {
+    "runId": 180001,
+    "metrics": {
+      "totalReturn": 0.013317308469661615,
+      "annualizedReturn": 0.005305791164621487,
+      "annualizedVolatility": 0.22493353872681718,
+      "sharpe": 0.13613643741194276,
+      "maximumDrawdown": -0.29047740784152154,
+      "averageTurnover": 0.006508859495917823,
+      "tradingDays": 631
+    },
+    "trades": 44
+  },
+  "strict": {
+    "runId": 180002,
+    "metrics": {
+      "totalReturn": -0.03090789316459308,
+      "annualizedReturn": -0.01247972151792498,
+      "annualizedVolatility": 0.19664388156179471,
+      "sharpe": 0.034556281107990305,
+      "maximumDrawdown": -0.26457833335743186,
+      "averageTurnover": 0.005535432438182129,
+      "tradingDays": 631
+    },
+    "trades": 41,
+    "rejectedTrades": 0
+  }
+}

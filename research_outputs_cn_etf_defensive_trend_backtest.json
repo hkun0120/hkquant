@@ -1,0 +1,49 @@
+{
+  "dataVersionId": 330002,
+  "period": {
+    "start": "2020-01-02",
+    "end": "2022-12-30"
+  },
+  "candidate": {
+    "lookbackDays": 60,
+    "riskWeight": 0.5,
+    "rebalances": 32,
+    "riskyUniverse": [
+      "510050.SH",
+      "510300.SH",
+      "510500.SH",
+      "512000.SH",
+      "512010.SH",
+      "512100.SH",
+      "518880.SH"
+    ],
+    "defensiveSymbol": "511010.SH"
+  },
+  "baseline": {
+    "runId": 210001,
+    "metrics": {
+      "totalReturn": 0.2296647797189999,
+      "annualizedReturn": 0.07429307045243827,
+      "annualizedVolatility": 0.06008249757958657,
+      "sharpe": 1.2229597346240197,
+      "maximumDrawdown": -0.07448992848765634,
+      "averageTurnover": 0.005742613099563233,
+      "tradingDays": 728
+    },
+    "trades": 35
+  },
+  "strict": {
+    "runId": 210002,
+    "metrics": {
+      "totalReturn": 0.22222097877169955,
+      "annualizedReturn": 0.07203437434745141,
+      "annualizedVolatility": 0.060034392195212324,
+      "sharpe": 1.1888238099355461,
+      "maximumDrawdown": -0.07573020906845174,
+      "averageTurnover": 0.005969735694968587,
+      "tradingDays": 728
+    },
+    "trades": 35,
+    "rejectedTrades": 0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "period": {
+    "start": "20220101",
+    "end": "20220131"
+  },
+  "result": [
+    {
+      "name": "A股交易日历",
+      "ok": true,
+      "rowCount": 31,
+      "firstRow": {
+        "exchange": "SSE",
+        "cal_date": "20220131",
+        "is_open": 0
+      },
+      "elapsedMs": 2664
+    },
+    {
+      "name": "A股ETF 510300.SH",
+      "ok": true,
+      "rowCount": 19,
+      "firstRow": {
+        "ts_code": "510300.SH",
+        "trade_date": "20220128",
+        "open": 4.637,
+        "high": 4.659,
+        "low": 4.55,
+        "close": 4.554,
+        "pre_close": 4.625,
+        "vol": 8583917.02,
+        "amount": 3950302.957
+      },
+      "elapsedMs": 2701
+    },
+    {
+      "name": "港股ETF 02800.HK",
+      "ok": false,
+      "error": "Tushare请求失败：抱歉，您访问接口(hk_daily)频率超限(1次/小时)，具体频次详情：https://tushare.pro/document/1?doc_id=108。",
+      "elapsedMs": 2630
+    }
+  ]
+}

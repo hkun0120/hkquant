@@ -1,0 +1,53 @@
+{
+  "period": {
+    "start": "2020-01-01",
+    "end": "2022-12-30"
+  },
+  "cn": {
+    "symbols": [
+      "510300.SH",
+      "510500.SH",
+      "512100.SH",
+      "518880.SH",
+      "511010.SH"
+    ],
+    "rows": 3639,
+    "failures": [],
+    "versionId": 30002,
+    "quality": {
+      "status": "failed",
+      "rowCount": 3639,
+      "duplicateCount": 0,
+      "missingCount": 0,
+      "invalidOhlcCount": 0,
+      "outOfOrderCount": 3634,
+      "coverageStart": "2020-01-02",
+      "coverageEnd": "2022-12-30",
+      "messages": [
+        "发现 3634 处时间逆序。"
+      ]
+    }
+  },
+  "hk": {
+    "symbols": [
+      "02800.HK",
+      "02828.HK",
+      "03033.HK"
+    ],
+    "rows": 0,
+    "failures": [
+      {
+        "symbol": "02800.HK",
+        "reason": "接口返回空数据"
+      },
+      {
+        "symbol": "02828.HK",
+        "reason": "Tushare请求失败：抱歉，您访问接口(hk_daily)频率超限(1次/分钟)，具体频次详情：https://tushare.pro/document/1?doc_id=108。"
+      },
+      {
+        "symbol": "03033.HK",
+        "reason": "Tushare请求失败：抱歉，您访问接口(hk_daily)频率超限(1次/分钟)，具体频次详情：https://tushare.pro/document/1?doc_id=108。"
+      }
+    ]
+  }
+}

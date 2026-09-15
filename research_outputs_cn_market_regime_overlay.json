@@ -1,0 +1,41 @@
+{
+  "dataVersionId": 90002,
+  "period": {
+    "start": "2020-01-02",
+    "end": "2022-12-30"
+  },
+  "symbol": "510300.SH",
+  "signalRule": {
+    "volatilityWindow": 20,
+    "annualizedVolatilityThreshold": 0.25,
+    "signalToExecution": "至少一个交易时点"
+  },
+  "rebalances": 149,
+  "baseline": {
+    "runId": 90003,
+    "metrics": {
+      "totalReturn": 0.0077820800000001356,
+      "annualizedReturn": 0.0026906737148322257,
+      "annualizedVolatility": 0.19767081034101916,
+      "sharpe": 0.11228981212504915,
+      "maximumDrawdown": -0.3860855964513088,
+      "averageTurnover": 0.0013679028137986947,
+      "tradingDays": 728
+    },
+    "trades": 2
+  },
+  "strict": {
+    "runId": 90004,
+    "metrics": {
+      "totalReturn": 0.006681349920000024,
+      "annualizedReturn": 0.0023109197322876973,
+      "annualizedVolatility": 0.19761149824720928,
+      "sharpe": 0.1103483122361942,
+      "maximumDrawdown": -0.3860523232609887,
+      "averageTurnover": 0.001366602738123962,
+      "tradingDays": 728
+    },
+    "trades": 2,
+    "rejectedTrades": 0
+  }
+}
