@@ -1,4 +1,4 @@
-# HK Quant Lab / KimiCode 接手说明
+# HK Quant Lab  接手说明
 
 ## 放置位置
 
